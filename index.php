@@ -3,11 +3,8 @@ include 'controllers/RoomController.php';
 include 'controllers/UserController.php';
 
 
-
 $userController = new UserController();
 $roomController = new RoomController();
-
-
 
 // Kiểm tra xem người dùng đã đăng nhập hay chưa
 session_start();
